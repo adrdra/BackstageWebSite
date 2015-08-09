@@ -1,0 +1,210 @@
+@media screen and  (min-width: 1020px) and (max-width: 1200px){    
+    .logo-small{
+        //width: 110px;
+        bottom: 8%;
+        right: 15%;
+    }
+}
+
+@media screen and  (min-width: 1200px) and (max-width: 1400px){    
+    .logo-small{
+        //width: 100%;
+        bottom: 5%;
+        right: 3%;
+        width: 110px;
+        
+    }
+}
+
+@media screen and (max-width: 1024px){
+    h2{
+        background: #000;
+        color: #fff;
+        font-size: 18pt;
+        font-weight: bold;
+        font-family: Baron, lato, sans-serif;
+        letter-spacing: 15px;
+        padding: 10px 0px;
+    }
+
+    h2 span{
+        background: #fff;
+        padding: 10px 30px;
+        color: #000;
+        display: inline-block;
+        text-align: center;
+        letter-spacing: 0px;
+    }
+    
+    .navigation{
+        height: 100px;
+        width: 100%;
+    }
+    
+    .navigation nav ul{
+        margin-top: 50px;
+        float: left;
+    }
+
+    .logo-small{
+        left: 0;
+        top: 15px;
+        bottom: auto;
+        right: auto;
+    }
+
+    .logo-small svg{
+        height: 100px;
+    }
+
+    .menu{
+        color: #fff;
+        font-family: baron, lato, sans-serif;
+        font-size: 16pt;
+        width: 100%;
+        margin: auto;
+        padding-top: 5%;
+    }
+
+    .menu a, .menu .current-item a{
+        background: transparent;
+        display: block;
+        color: #fff;
+        border: 0;
+        list-style: none;
+        overflow: hidden;
+        padding: 10px !important;
+        width: 100%;
+        text-align: center;
+        -moz-transition: all 0.6s cubic-bezier(.55,0,.1,1);
+        -o-transition: all 0.6s cubic-bezier(.55,0,.1,1);
+        -webkit-transition: all 0.6s cubic-bezier(.55,0,.1,1);
+        transition: all 0.6s cubic-bezier(.55,0,.1,1);
+    }
+
+    .menu li:last-child a{
+        border: 0;
+    }
+
+
+
+    .menu a:hover{
+        color: #fff;
+        text-decoration: none;
+        box-shadow: none;
+        padding: 10px;
+    }
+
+    .menu li:after{
+        content: " →";
+        float: right;
+        opacity: 0;
+        -moz-transition: all 0.6s cubic-bezier(.55,0,.1,1);
+        -o-transition: all 0.6s cubic-bezier(.55,0,.1,1);
+        -webkit-transition: all 0.6s cubic-bezier(.55,0,.1,1);
+        transition: all 0.6s cubic-bezier(.55,0,.1,1);
+    }
+
+    .menu a:hover li:after{
+        margin-right: 50px;   
+        opacity: 1;
+    }
+
+    .welcome{
+        background: transparent;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        color: #fff;
+        font-family: 'Baron', sans-serif;
+        font-size: 3rem;
+        letter-spacing: 5px;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .presentation h1{
+        font-size: 12pt;
+        text-transform: uppercase;
+        color: #000;
+        letter-spacing: 5px;
+        text-align: center;
+        display: inline-block;
+        margin: 20px auto;
+        border-bottom: 2px solid #000;
+        padding-bottom: 20px;
+    }
+
+    .presentation p{
+        color: #7F8C8D;
+        font-size: 11pt;
+        max-width: 85%;
+        margin: auto;
+    }
+
+    .value{
+        width: 100%;
+        margin: auto;
+        display: table;
+    }
+
+    .value hr{
+        display: none;
+    }
+
+    .value .left-v, .value .right-v{
+        display: none;
+    }
+
+    .value .center-v{
+        background: #fff;
+        width: 100%;
+        height: 300px;
+        margin-top: 10px;
+        border: 5px solid #000;
+        float: left;
+        position: relative;
+    }
+
+    .title-capacities h2{
+        background: url(img/border-capacites.png) 50% no-repeat;
+        display: table-cell;
+        width: 450px;
+        height: 284px;
+        margin: 0 auto 0 auto;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 2;
+        letter-spacing: 10px;
+    }
+
+    .title-capacities h2 span{
+        background: transparent;
+        color: #fff;
+    }
+
+    .capacities p{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        font-size: 10pt;
+        font-weight: bold;
+        color: #B3B3B3;
+        letter-spacing: 0;
+        line-height: 2;
+    }
+
+    .title-demoreel h2{
+        background: transparent;
+        width: 100%;
+        height: 284px;
+        margin: 280px auto 0 auto;
+        text-align: center;
+        border: 8px solid #fff;
+        letter-spacing: 10px;
+        padding-top: 100px;
+        position: relative;
+    }
+
+
+}
